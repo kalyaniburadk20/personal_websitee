@@ -1,0 +1,128 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background: #ff6f61;
+    padding: 1em 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(to right, #ff6f61, #ff9671);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+
+section {
+    padding: 4em 0;
+    text-align: center;
+}
+
+#skills ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 20px 0;
+}
+
+#skills ul li {
+    margin: 0 15px;
+    background: #ff9671;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.project {
+    background: #ff9671;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#contact button {
+    background: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#contact button:hover {
+    background: #ff9671;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    #skills ul {
+        flex-direction: column;
+    }
+}
+
+
+  
+   
